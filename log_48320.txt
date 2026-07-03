@@ -1,0 +1,6 @@
+[2026-07-03 11:41:14] RUN START: seed=random, cycles=12, spread=5, baseline=98
+[2026-07-03 11:41:14] SENSOR FAILURE: Sensor C - Sensor C failed to respond
+[2026-07-03 11:41:14] FALLBACK DECISION: valid readings [101, 100] all differ, no majority; reusing previous altitude 98 m
+[2026-07-03 11:41:14] SENSOR FAILURE: Sensor C - Sensor C failed to respond
+[2026-07-03 11:41:14] FALLBACK DECISION: valid readings [98, 102] all differ, no majority; reusing previous altitude 98 m
+[2026-07-03 11:41:14] SAFE MODE ACTIVATION: Two consecutive reliability failures (last at cycle 2)

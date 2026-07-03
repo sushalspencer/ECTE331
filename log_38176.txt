@@ -1,0 +1,7 @@
+[2026-07-03 11:40:08] RUN START: seed=random, cycles=12, spread=5, baseline=98
+[2026-07-03 11:40:08] CORRUPTED READING: Sensor A returned -45 m (outside [0,200])
+[2026-07-03 11:40:08] CORRUPTED READING: Sensor C returned 212 m (outside [0,200])
+[2026-07-03 11:40:08] OUTLIER DETECTION: non-valid sensor(s) [A, C]; only 1 valid reading(s)
+[2026-07-03 11:40:08] SENSOR FAILURE: Sensor B - Sensor B failed to respond
+[2026-07-03 11:40:08] FALLBACK DECISION: valid readings [100, 98] all differ, no majority; reusing previous altitude 98 m
+[2026-07-03 11:40:08] SAFE MODE ACTIVATION: Two consecutive reliability failures (last at cycle 2)
